@@ -1,0 +1,14 @@
+#title_text_accom {
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#accomodation_container h2 {
+	font-size: 15px;
+	margin-top: 30px;
+}
+
+#accomodation_container p:not(#title_text_accom) {
+	margin-top: 0;
+}

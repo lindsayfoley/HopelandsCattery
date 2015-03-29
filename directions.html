@@ -2,7 +2,7 @@
 <html>
 <head>
 
-<title>Hopelands Cattery: Quality care for you cherished pet Cat</title>
+<title>Hopelands Cattery: How to find us</title>
 
 <meta name="keywords" content="">
 <meta name="description" content="A family run business, Hopelands Cattery is fully licensed and offers unrivalled levels of quality care for you cherished pet">
@@ -10,10 +10,12 @@
 <meta name="format-detection" content="telephone=no">
 
 <link rel="stylesheet" type="text/css" href="style/all_pages.css">
+<link rel="stylesheet" type="text/css" href="style/directions.css">
+
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script src="/js/all_scripts.js"></script>
-
 
 <!--[if lt IE 9]>
 
@@ -30,7 +32,7 @@ document.createElement('small');
 
 <script>
 	$(document).ready(function() {
-		CurrentPageIdentifier.run('home');
+		CurrentPageIdentifier.run('directions');
 	});
 </script>
 
@@ -53,31 +55,35 @@ document.createElement('small');
 
 
 <main>
-	<section id="hopepage_intro">
-		<div id="hero"></div>
-		<img id="logo" src="/imagesX/logo.png" alt="Hopelands Cattery" />
-		<div id="logoBorder"></div>
-		<h1>Hopelands Cattery is fully licensed and offers unrivalled levels of quality care for your cherished pet</h1>
-	</section>
-	<section id="mainContentModules">
-		<div id="module1">
-			<img src="/imagesX/mod1.jpg" alt="A working farm" />
-		</div>
-		<div id="module2">
-			<h2>OUR WORK</h2>
-			<p>As part of a working farm and animal sanctuary we understand animal welfare is paramount and have sought to create a tranquil, safe and endearing environment for 
-			all of your pets need's and requirements.</p>
-			<h3>READ MORE &gt;</h3>
-		</div>
-		<div id="module3">
-			<img src="/imagesX/mod3.jpg" alt="small animals" />
-			<p>We also board a vast selection of small animals.</p>
-			<h3>READ MORE &gt;</h3>
-		</div>
-		<div id="module4">
-			<img src="/imagesX/mod4.jpg" alt="pre-booking viewing" />
-			<p>The cattery is open for pre-booking viewing visits.</p>
-			<h3>FIND OUT MORE &gt;</h3>
+	<section id="maps_background"></section>
+	<section id="directions_container">
+		<div id="directions_copy">
+			<div id="opening_hours">
+				<h2>OPENING HOURS</h2>
+				<table>
+					<tr>
+						<td>Monday - Saturday</td>
+						<td>9.30am-11.30am and 3.30pm-5.30pm</td>
+					</tr>
+					<tr>
+						<td>Sunday</td>
+						<td>9.30am-11.00am and 4.00pm-5.00pm</td>
+					</tr>
+				</table>	
+			</div>
+			<div id="contact_info">
+				<h2>NEED FURTHER HELP?</h2>
+				<table>
+					<tr>
+						<td>You can email us</td>
+						<td>enquiries@hopelandscattery.com</td>
+					</tr>
+					<tr>
+						<td>Give us a call</td>
+						<td>01242 524850</td>
+					</tr>
+				</table>		
+			</div>
 		</div>
 	</section>
 </main>

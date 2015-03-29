@@ -1,0 +1,10 @@
+#maps_background { z-index: 0; width: 100%; height: 400px; position: absolute; top: 60px; left: 0;   }
+#logo { position: absolute; top: 15%; left: 50%; width: 15%; opacity: 0.2; }
+#directions_container { width: 100%; height: 90px; margin: 400px auto 0 auto; padding: 30px 0; background-color: #a0d5a1; color: #646262; }
+#directions_copy { width: 852px; text-align: left; font-size: 13px; color: #423f3f; }
+#directions_copy , #contact_info, #opening_hours { margin: 0 auto; } 
+#contact_info, #opening_hours { float: left; width: 384px; height: 60px; border: 1px solid #a0d5a1; background-color: #f9fcf9; padding: 10px; }
+#opening_hours { margin-right: 40px; }
+#directions_copy h2 { padding-bottom: 2px; color: #7ea97f; font-size: 14px; }
+#directions_copy td { padding-left: 0; }
+#directions_copy td:first-child { padding-right: 45px; }  

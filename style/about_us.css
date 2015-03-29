@@ -1,0 +1,56 @@
+#about_us_container , #accomodation_container { 
+	color: #686767;
+	width: 852px;
+	margin: 0 auto 30px auto; 
+}
+
+#title_box_about h1, #accom_title_container h1 {
+	color: #94c695;
+	font-size: 27px;
+	font-weight: bold;
+	margin: 30px 0 15px 0;
+}
+
+#title_text_about  {
+	margin-bottom: 20px;
+}
+
+#title_text_about, #title_text_accom {	
+	font-size: 20px;
+	line-height: 25px;
+}
+
+#about_us_container, #column_container_about { 
+	width: 852px; 
+}
+
+#column_container_about { 
+	margin: 0 auto;
+}
+
+#title_box_about h1, #title_text_about, #about_title, #accom_title_container h1, #title_text_accom {
+	text-align: center;
+}
+
+#left_col_about, #right_col_about {
+	width: 406px;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}	
+
+#left_col_about, #right_col_about, #accomodation_container p:not(#title_text_accom) {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+#left_col_about {
+	padding-right: 40px;
+}
+
+#title_box_about_border, #accomodation_border {
+	background-color: #94C695;
+	width: 200px;
+	height: 6px;
+	margin: 0 auto;
+}
