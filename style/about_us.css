@@ -1,16 +1,16 @@
-#about_us_container, #accomodation_container, #about_photo_container { color: #686767; width: 852px; margin: 0 auto; }
-#title_box_about h1, #accom_title_container h1 { color: #94c695; font-size: 27px; font-weight: 700; margin: 30px 0 15px; }
-#title_text_about { margin-bottom: 20px; }
-#title_text_about, #title_text_accom { font-size: 20px; line-height: 25px; }
+#about_us_container, #accomodation_container, #about_photo_container { width: 852px; }
+#about_us_container, #accomodation_container, #about_photo_container, #gallery_container, #carouselMainCopy { color: #686767;  margin: 0 auto; }
+.page_header_container h1 { color: #94c695; font-size: 27px; font-weight: 700; margin: 30px 0 15px; }
+.page_sub_header { font-size: 20px; line-height: 25px; }
 #about_us_container { width: 100%; }
 #column_container_about { margin: 0 auto 30px; width: 852px; }
-#title_box_about h1, #title_text_about, #about_title, #accom_title_container h1, #title_text_accom { text-align: center; }
+#about_title, .page_header_container h1, .page_sub_header { text-align: center; }
 #left_col_about, #right_col_about { width: 406px; float: left; margin-top: 30px; }
 #left_col_about p:last-child, #right_col_about p: last-child { margin-bottom: 0; }
 #left_col_about, #right_col_about, #accomodation_container { line-height: 21px; }
-#left_col_about, #right_col_about, #accomodation_container, #about_us_container h3 { font-size: 14px; }
+#left_col_about, #right_col_about, #accomodation_container, #about_us_container h3, #carouselMainCopy { font-size: 14px; }
 #left_col_about { padding-right: 40px; }
-#title_box_about_border, #accomodation_border { background-color: #94C695; width: 200px; height: 6px; margin: 0 auto; }
+.page_header_border { background-color: #94C695; width: 200px; height: 6px; margin: 0 auto; }
 #about_photo_container { clear: left; background-color: #e8e7e7; }
 #car_photo, #farm_photo, #cat_photo { float: left; position: relative; box-shadow: 0 1px 1px #bfbcb5; }
 .photo_intro { font-weight: 700; margin-bottom: 0; }
@@ -23,6 +23,6 @@
 #grey_section_container p { margin: 0; padding-bottom: 15px; font-size: 13px; font-style: italic; font-weight: 700; color: #adadad; }
 #about_us_container h3, #grey_section_container p { background-color: #fff; text-align: center; }
 .icon { position: absolute; top: 179px; left: 115px; display: block; width: 35px; height: 35px; }
-#gallery_link { background-image: url(/imagesX/about_camera_icon.png); }
-#location_link { background-image: url(/imagesX/about_pin_icon.png); }
-#accomodation_link { background-image: url(/imagesX/about_house_icon.png); }
+#gallery_link { background-image: url(/images/about_camera_icon.png); }
+#location_link { background-image: url(/images/about_pin_icon.png); }
+#accomodation_link { background-image: url(/images/about_house_icon.png); }

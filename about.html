@@ -12,8 +12,9 @@
 <link rel="stylesheet" type="text/css" href="style/all_pages.css">
 <link rel="stylesheet" type="text/css" href="style/about_us.css">
 
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/all_scripts.js"></script>
 
 <!--[if lt IE 9]>
 
@@ -28,12 +29,6 @@ document.createElement('small');
 
 <![endif]-->
 
-<script>
-	$(document).ready(function() {
-		CurrentPageIdentifier.run('about');
-	});
-</script>
-
 </head>
 
 <body>
@@ -41,7 +36,7 @@ document.createElement('small');
 <header>
 	<nav>
 		<ul>
-			<li><a id="home" href="\">HOME</a>
+			<li><a id="home" href="/">HOME</a>
 			</li><li><a id="accomodation" href="accomodation.html">ACCOMMODATION</a>
 			</li><li><a id="gallery" href="gallery.html">GALLERY</a>
 			</li><li><a id="about" href="about.html">ABOUT US</a>
@@ -55,34 +50,50 @@ document.createElement('small');
 	<!-- start adding your HTML here -->
 	
 	<div id="about_us_container">
-		<div id="title_box_about">
+		<div class="page_header_container">
 			<h1>ABOUT US</h1>
-			<p id="title_text_about">
-				Hopelands cattery is a small <strong>family run</strong> business offering<br>
-				<strong>boarding</strong> for cats and <strong>small animals</strong>. 
-			</p>
-			<div id="title_box_about_border"></div>
+			<p class="page_sub_header">Hopelands cattery is a small <strong>family run</strong> business offering<br>
+			<strong>boarding</strong> for cats and <strong>small animals</strong>.</p>
+			<div class="page_header_border"></div>
 		</div>
 		<div id="column_container_about">
 			<div id="left_col_about">
-				<p>Hopelands cattery is a small family run business offering boarding for
-				cats and small animals. Based on a working farm in Cheltenham,
-				Gloucestershire, we have been successfully running since 1996 and
-				offer unrivalled levels of quality care for your cherished pets.<br><br>
-				Our aim here at Hopelands is to provide your cat with a home away from
-				home, with comfort and feeding routines the same to which it is at
-				home ensuring a stress free and enjoyable stay for your cat.<br><br>
-				The cattery consists of both inside and outdoor chalets. Indoor chalets have individual heaters to each enclosure, whilst outdoor chalets have individual thermostat heaters with a large 		 		run for your cat to stretch their legs.
-			   </p>
+				<p>Hopelands cattery is a small family run business offering boarding for cats and small animals. Based on a working farm in Cheltenham,
+				Gloucestershire, we have been successfully running since 1996 and offer unrivalled levels of quality care for your cherished pets.</p>
+				<p>Our aim here at Hopelands is to provide your cat with a home away from home, with comfort and feeding routines the same to which it is at
+				home ensuring a stress free and enjoyable stay for your cat.</p>
 			</div>
 			<div id="right_col_about">
-				<p>The cattery is run by Heather who has an NVQ Level 3 in animal welfare and care ensuring that your cat is left in the best possible hands.<br><br>
-				We also board a vast selection of small animals including Ferrets, Rabbits, Birds and Guinea Pigs. We can also accommodate a small number of Dogs.<br><br>
-				If you would like to book a viewing or would like to know any more information, please do not hesitate to get in contact by either phone or email.
-				</p>
+				<p>The cattery consists of both inside and outdoor chalets. Indoor chalets have individual heaters to each enclosure, whilst outdoor 
+				chalets have individual thermostat heaters with a large run for your cat to stretch their legs.</p>
+				<p>The cattery is run by a family team. Heather, who has an NVQ Level 3 in animal welfare and care, and her husband and son who are on hand to provide extra care where needed ensuring that your cat is left in the best possible hands.</p>
 			</div>
+			<br class="endOfContent">
 		</div>
-	</div>
+		<div id="grey_section">
+	  		<div id="grey_section_container">
+	        	<div id="car_photo">
+	            	<a href="gallery.html"><img src="images/about_car.jpg"/></a>
+					<a id="gallery_link" class="icon" href="gallery.html">&nbsp;</a>
+	                <h3>FAMILY RUN BUSINESS</h3>
+	                <p>Established almost 20 years ago</p>
+	          	</div>
+	            <div id="farm_photo">
+	            	<a href="directions.html"><img src="images/about_farm.jpg"/></a>
+					<a id="location_link" class="icon" href="directions.html">&nbsp;</a>
+					<h3>OUR FARM</h3>
+					<p>We run a working farm in Cheltenham</p>
+	            </div>
+	            <div id="cat_photo">
+	              <a href="accomodation.html"><img src="images/about_cat.jpg"/></a>
+				  <a id="accomodation_link" class="icon" href="accomodation.html">&nbsp;</a>
+	              <h3>THE CATTERY</h3>     
+	              <p>A home away from home</p>
+	            </div>
+				<br class="endOfContent">
+			</div>
+      	</div>
+    </div>
 	
 	<!-- end of adding your own HTML here -->	
 </main>
@@ -100,7 +111,7 @@ document.createElement('small');
 		</div>
 		<div id="email">
 			<h4>EMAIL</h4>
-			<p>enquiries@hopelandscattery.com</p>
+			<p><a href="mailto:enquiries@hopelandscattery.com">enquiries@hopelandscattery.com</a></p>
 			<h4>FAX</h4>
 			<p>01242 221 963</p>
 		</div>

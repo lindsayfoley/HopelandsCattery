@@ -10,8 +10,15 @@
 <meta name="format-detection" content="telephone=no">
 
 <link rel="stylesheet" type="text/css" href="style/all_pages.css">
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style/about_us.css">
+<link rel="stylesheet" type="text/css" href="style/gallery.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css"/>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css"/>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script>
 <script src="/js/all_scripts.js"></script>
 
 
@@ -27,12 +34,6 @@ document.createElement('small');
 </script>
 
 <![endif]-->
-
-<script>
-	$(document).ready(function() {
-		CurrentPageIdentifier.run('gallery');
-	});
-</script>
 
 </head>
 
@@ -52,8 +53,55 @@ document.createElement('small');
 </header>
 
 
-<main>
-	GALLERY PAGE
+<main id="gallery_container">
+	<div id="carouselMainContainer">
+		<div id="carouselMainCopy">
+			<div class="page_header_container">
+				<h1>OUR CATTERY</h1>
+			</div>
+			<p class="page_sub_header">A <strong>working farm</strong> and animal <strong>sanctuary</strong>.</p>
+			<div class="page_header_border"></div>
+			<p>We understand animal welfare is paramount and have sought to create a tranquil, safe and endearing environment 
+			for all of your pets needs.</p>
+			<p>If you would like more information on Hopelands Cattery, pre-booking viewing visits or would like to enquire about our extremely competitive rates, please call on 
+			any number below or <a href="mailto:enquiries@hopelandscattery.com">email your enquiry</a>.</p>
+			<p>To download a copy of our booking form <a href="/images/booking_form.pdf" target="_blank">click here</a>.</p>
+		</div>
+		<div class="carouselMain">
+			<div><img src="/images/tabby_cat_500px.jpg" alt="tabby cat" /></div>
+			<div><img src="/images/bird_branch_500px.jpg" alt="bird on branch" /></div>
+			<div><img src="/images/dog_jumping_500px.jpg" alt="dog jumping" /></div>
+			<div><img src="/images/flowers_500px.jpg" alt="flowers" /></div>
+			<div><img src="/images/ducks_farm_500px.jpg" alt="ducks" /></div>
+			<div><img src="/images/guinea_pig_cage_500px.jpg" alt="we also board small animals" /></div>
+			<div><img src="/images/yellow_bird_500px.jpg" alt="yellow bird" /></div>
+			<div><img src="/images/white_cat_blanket_500px.jpg" alt="cat" /></div>
+			<div><img src="/images/cat_looking_up_500px.jpg" alt="tabby cat posing" /></div>
+			<div><img src="/images/scenery_500px.jpg" alt="scenery on the farm" /></div>
+			<div><img src="/images/kittens_500px.jpg" alt="kittens playing" /></div>
+			<div><img src="/images/ginger_cat_500px.jpg" alt="ginger cat" /></div>
+			<div><img src="/images/dog_yawning_500px.jpg" alt="dogs yawning" /></div>
+			<div><img src="/images/dog_exterior_500px.jpg" alt="exterior of the farm" /></div>
+		</div>
+	</div>
+	<div id="carouselThumbsContainer">
+		<div class="carouselThumbs">
+			<div><img src="/images/tabby_cat_250px.jpg" alt="tabby cat" /></div>
+			<div><img src="/images/bird_branch_250px.jpg" alt="bird on branch" /></div>
+			<div><img src="/images/dog_jumping_250px.jpg" alt="dog jumping" /></div>
+			<div><img src="/images/flowers_250px.jpg" alt="flowers" /></div>
+			<div><img src="/images/ducks_farm_250px.jpg" alt="ducks" /></div>
+			<div><img src="/images/guinea_pig_cage_250px.jpg" alt="we also board small animals" /></div>
+			<div><img src="/images/yellow_bird_250px.jpg" alt="yellow bird" /></div>
+			<div><img src="/images/white_cat_blanket_250px.jpg" alt="cat" /></div>
+			<div><img src="/images/cat_looking_up_250px.jpg" alt="tabby cat posing" /></div>
+			<div><img src="/images/scenery_250px.jpg" alt="scenery on the farm" /></div>
+			<div><img src="/images/kittens_250px.jpg" alt="kittens playing" /></div>
+			<div><img src="/images/ginger_cat_250px.jpg" alt="ginger cat" /></div>
+			<div><img src="/images/dog_yawning_250px.jpg" alt="dogs yawning" /></div>
+			<div><img src="/images/dog_exterior_250px.jpg" alt="exterior of the farm" /></div>
+		</div>
+	</div>
 </main>
 
 <footer>
@@ -69,7 +117,7 @@ document.createElement('small');
 		</div>
 		<div id="email">
 			<h4>EMAIL</h4>
-			<p>enquiries@hopelandscattery.com</p>
+			<p><a href="mailto:enquiries@hopelandscattery.com">enquiries@hopelandscattery.com</a></p>
 			<h4>FAX</h4>
 			<p>01242 221 963</p>
 		</div>

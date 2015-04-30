@@ -1,14 +1,9 @@
-#title_text_accom {
-	width: 450px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#accomodation_container h2 {
-	font-size: 15px;
-	margin-top: 30px;
-}
-
-#accomodation_container p:not(#title_text_accom) {
-	margin-top: 0;
-}
+#title_text_accom { width: 450px; margin-left: auto; margin-right: auto; }
+#accomodation_container { padding-bottom: 30px; }
+#accomodation_container h2 { font-size: 15px; margin-top: 30px; }
+#accomodation_container p:not(#title_text_accom) { margin-top: 0; }
+#accomodation_container section p:last-child { margin-bottom: 30px; }
+hr { border: 0; height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.3)!important; margin-top: 30px; }  
+.fa { padding-right: 5px; }
+#accomBanner { max-width: 100%; height: auto; margin: 0 auto; } 
+#accom { opacity: 0.5; top: 80px; left: 85%; width: 100px; }

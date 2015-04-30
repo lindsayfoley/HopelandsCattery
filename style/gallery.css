@@ -1,0 +1,8 @@
+#carouselMainContainer { width: 852px; margin: 30px auto 0 auto; position: relative; }
+.carouselMain, .carouselMain .slick-slide, .carouselMain .slick-list { width: 500px; }
+.carouselMain { margin-left: 377px; }
+#carouselMainCopy { width: 372px; height: 333px; position: absolute; margin-right: 505px; margin-left: -25px; line-height: 21px; }
+#carouselThumbsContainer { width: 100%; background-color: #e8e7e7; padding: 30px 0 15px 0; }
+.carouselThumbs { width: 900px; }
+.carouselThumbs, .slick-slide img { margin: 0 auto; }
+.slick-prev::before, .slick-next::before { color: gray!important; }

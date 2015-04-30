@@ -21,7 +21,7 @@ marker = new google.maps.Marker({
 	map: map,
 	draggable: false,
 	animation: google.maps.Animation.DROP,
-	icon: iconBase + '/imagesX/logo_grey.png'
+	icon: iconBase + '/images/logo_grey.png'
 	});
 }
 google.maps.event.addDomListener(window, 'load', showGoogleMaps);

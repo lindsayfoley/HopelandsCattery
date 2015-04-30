@@ -13,8 +13,9 @@
 <link rel="stylesheet" type="text/css" href="style/accomodation.css">
 <link rel="stylesheet" type="text/css" href="style/about_us.css">
 
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/js/all_scripts.js"></script>
 
 <!--[if lt IE 9]>
 
@@ -29,12 +30,6 @@ document.createElement('small');
 
 <![endif]-->
 
-<script>
-	$(document).ready(function() {
-		CurrentPageIdentifier.run('accomodation');
-	});
-</script>
-
 </head>
 
 <body>
@@ -42,7 +37,7 @@ document.createElement('small');
 <header>
 	<nav>
 		<ul>
-			<li><a id="home" href="\">HOME</a>
+			<li><a id="home" href="/">HOME</a>
 			</li><li><a id="accomodation" href="accomodation.html">ACCOMODATION</a>
 			</li><li><a id="gallery" href="gallery.html">GALLERY</a>
 			</li><li><a id="about" href="about.html">ABOUT US</a>
@@ -55,30 +50,51 @@ document.createElement('small');
 
 <main>
 	<!-- start adding your HTML here -->
-	
+<img id="accom" class="logo" src="/images/logo.png" alt="Hopelands Cattery" />
+<img id="accomBanner" src="/images/accom_banner.jpg" alt="The Chalets" />		
 <div id="accomodation_container">
-	<div id="accom_title_container">
+	<div class="page_header_container">
 		<h1>ACCOMODATION</h1>
-      	<p id="title_text_accom">We offer individual <strong>care</strong> for your pet in a <strong>happy</strong>, homely <strong>environment.</strong></p>
+      	<p class="page_sub_header">We offer individual <strong>care</strong> for your pet in a <strong>happy</strong>,<br /> homely <strong>environment.</strong></p>
     </div>
-    <div id="accomodation_border"></div>
-	<h2>The Chalets</h2>
-    <p>We have 23 chalets in total here at Hopelands, 10 outdoors undercover and 13 which are inside. All chalets will contain comfortable bedding for your cat 	although we do encourage owners to bring something familiar for them to have in the chalet to help your cat settle in.</p>
-    <p>Our outdoor cabins have individual thermostat heaters for those cooler days and nights. Outdoor chaltes have an exercise area, perfect for leg stretching, socialising and playing.</p>
-    <p>The indoor chalets also have individual radiators and a seperate sleeping area within the unit, and are ideal for those more mature cats or perhaps those who have limited movement or injury. These chalets offer a quieter environment for the most nervous cats too.</p>
-	<h2>Feeding</h2>
-	<p>We like to provide the cats with good quality food and realise the importance of keeping the routine of each cat the same as at home preventing any sickness or diet changes.</p>
-    <p>Cats are fed at times as requested by their owners and we feed at least twice a day. If a perscription diet is required then we do ask the owners to provide this.</p>
-    <p>We have a kitchen on-site where the food is prepared, meaning we can also offer the facility of a fridge to keep fresh food and a freezer for frozen foods if you wish.</p>
-    <h2>The Little Extras</h2>
-    <p>Each cat is groomed daily.</p>
-	<p>We do like to have a cuddle and play time if they allow, but we of course know that your cat has it's own prefences which we observe and respect.</p>
-	<p>Where we can, we will provide plastic toys which are easily sterlised between the usage of cats, however we do ask owners to bring soft toys if your cat has a favourite! This helps in preventing the transfer of any nasties and also helps your cat again settle in to their surroundings.</p>
-    <p>I myself like to look after the cats daily so I get the chance to know them individually. My husband and son are also on hand to provide extra care and support. There is someone on the premises 24/7 and all our animals are checked throughout the day, from first thing in the morning until last thing at night.</p>
-   	<h2>Our Work With The RSPCA</h2>
-    <p>Hopelands also take care of RSPCA cats/animals who are waiting to be rehomed. Enquiries for these animals should be made Via Cheltenham and East Glos branch 01242 521958 or Gloucester City and District Branch 01452 714126 also all information is on their RSPCA web sites.</p>
-	<h2>Medicines</h2>
-	<p>If a cat requires medication this is given free of charge, we do however like to have a note of written concent and instruction.</p>
+    <div class="page_header_border"></div>
+	<section>
+		<h2><i class="fa fa-home"></i> The Chalets</h2>
+    	<p>We have 23 chalets in total at Hopelands, 10 outdoors, undercover, and 13 which are inside. All chalets will contain comfortable bedding for your cat although we do encourage owners to bring something familiar for them to have in the chalet to help your cat settle in.</p>
+    	<p>Our outdoor cabins have individual thermostat heaters for those cooler days and nights. Outdoor chalets also have an exercise area - perfect for leg stretching, socialising and playing.</p>
+    	<p>The indoor chalets also have individual radiators and a seperate sleeping area within the unit, and are ideal for those more mature cats or perhaps those who have limited movement or injury. These chalets offer a quieter environment for the most nervous cats too.</p>
+	</section>
+	<hr>
+	<section>
+		<h2><i class="fa fa-spoon"></i> Feeding</h2>
+		<p>We like to provide the cats with good quality food and do recognise the importance of keeping routines the same to those as at home to help prevent any sickness or diet changes.</p>
+    	<p>Cats are fed at times as requested by their owners and we do feed at least twice a day. If a prescription diet is required then we do ask the owners to provide this.</p>
+    	<p>We have a kitchen on-site where the food is prepared, meaning we can also offer the facility of a fridge to keep fresh food and a freezer for frozen foods if you wish.</p>
+    </section>
+	<hr>
+	<section>
+		<h2><i class="fa fa-puzzle-piece"></i> The Little Extras</h2>
+    	<p>Each cat is groomed daily.</p>
+		<p>We do like to have a cuddle and play time if they allow, but we of course know that your cat has their own preferences which we observe and respect.</p>
+		<p>Where we can, we will provide plastic toys which are easily sterlised between the usage of cats, however we do ask owners to bring soft toys if your cat has a favourite! This helps in preventing the transfer of any nasties and also helps your cat again settle in to their surroundings.</p>
+    	<p>I myself like to look after the cats daily so I get the chance to know them individually. My husband and son are also on hand to provide extra care and support. There is someone on the premises 24/7 and all our animals are checked throughout the day, from first thing in the morning until last thing at night.</p>
+   	</section>
+	<hr>
+	<section>
+		<h2><i class="fa fa-paw"></i> Our Work With The RSPCA</h2>
+    	<p>Hopelands also take care of RSPCA cats/animals who are waiting to be rehomed. Enquiries for these animals should be made Via Cheltenham and East Glos branch 01242 521958 or Gloucester City and District Branch 01452 714126 also all information is on their RSPCA web sites.</p>
+	</section>
+	<hr>
+	<section>
+		<h2><i class="fa fa-medkit"></i> Medicines</h2>
+		<p>If a cat requires medication this is given free of charge, we do however like to have a note of written concent and instruction.</p>
+	</section>
+	<hr>
+	<section>
+		<h2><i class="fa fa-file-pdf-o"></i> Booking Form</h2>
+		<p>Please <a href="/images/booking_form.pdf" target="_blank">click here</a> to download a copy of our booking form.</p>
+	</section>
+	<hr>
 </div>
 	
 	<!-- end of adding your own HTML here -->	
@@ -97,7 +113,7 @@ document.createElement('small');
 		</div>
 		<div id="email">
 			<h4>EMAIL</h4>
-			<p>enquiries@hopelandscattery.com</p>
+			<p><a href="mailto:enquiries@hopelandscattery.com">enquiries@hopelandscattery.com</a></p>
 			<h4>FAX</h4>
 			<p>01242 221 963</p>
 		</div>

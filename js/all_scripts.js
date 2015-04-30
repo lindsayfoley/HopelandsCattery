@@ -25,8 +25,27 @@ var CurrentPageIdentifier = {
 	}
 };
 
+var SlickCarouselInitialiser = function() {
+	$('.carouselMain').slick({
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	  arrows: false,
+	  fade: true,
+	  asNavFor: '.carouselThumbs'
+	});
+	$('.carouselThumbs').slick({
+	  slidesToShow: 3,
+	  slidesToScroll: 1,
+	  asNavFor: '.carouselMain',
+	  dots: false,
+	  centerMode: true,
+	  focusOnSelect: true
+	});
+}
+
 $(document).ready(function() {
 	CurrentPageIdentifier.run();
+	SlickCarouselInitialiser();
 });
 
 
