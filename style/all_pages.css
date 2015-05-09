@@ -42,7 +42,8 @@ h3 { padding-bottom: 15px; border-bottom: 4px solid #94c695; }
 #module2 h3 { padding-top: 5px; }
 #module2 p { width: 163px; }
 p a { color: #686767; }
-#module2 h3, #module3 h3, #module4 h3 { width: 85px; }
+#module2 h3, #module3 h3 { width: 85px; }
+#module4 h3 { width: 106px; }
 
 footer { background-color: #222222; padding-bottom: 20px; }
 footer, small, .endOfContent { clear: left; }

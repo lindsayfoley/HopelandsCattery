@@ -1,5 +1,5 @@
-#about_us_container, #accomodation_container, #about_photo_container { width: 852px; }
-#about_us_container, #accomodation_container, #about_photo_container, #gallery_container, #carouselMainCopy { color: #686767;  margin: 0 auto; }
+#about_us_container, #accommodation_container, #about_photo_container { width: 852px; }
+#about_us_container, #accommodation_container, #about_photo_container, #gallery_container, #carouselMainCopy { color: #686767;  margin: 0 auto; }
 .page_header_container h1 { color: #94c695; font-size: 27px; font-weight: 700; margin: 30px 0 15px; }
 .page_sub_header { font-size: 20px; line-height: 25px; }
 #about_us_container { width: 100%; }
@@ -7,8 +7,8 @@
 #about_title, .page_header_container h1, .page_sub_header { text-align: center; }
 #left_col_about, #right_col_about { width: 406px; float: left; margin-top: 30px; }
 #left_col_about p:last-child, #right_col_about p: last-child { margin-bottom: 0; }
-#left_col_about, #right_col_about, #accomodation_container { line-height: 21px; }
-#left_col_about, #right_col_about, #accomodation_container, #about_us_container h3, #carouselMainCopy { font-size: 14px; }
+#left_col_about, #right_col_about, #accommodation_container { line-height: 21px; }
+#left_col_about, #right_col_about, #accommodation_container, #about_us_container h3, #carouselMainCopy { font-size: 14px; }
 #left_col_about { padding-right: 40px; }
 .page_header_border { background-color: #94C695; width: 200px; height: 6px; margin: 0 auto; }
 #about_photo_container { clear: left; background-color: #e8e7e7; }
@@ -25,4 +25,4 @@
 .icon { position: absolute; top: 179px; left: 115px; display: block; width: 35px; height: 35px; }
 #gallery_link { background-image: url(/images/about_camera_icon.png); }
 #location_link { background-image: url(/images/about_pin_icon.png); }
-#accomodation_link { background-image: url(/images/about_house_icon.png); }
+#accommodation_link { background-image: url(/images/about_house_icon.png); }
